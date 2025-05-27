@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Head>
         <title>로또추첨기</title>
-        <link rel="icon" href="/favicon_v2.ico" />
+        {/* <link rel="icon" href="/favicon_v2.ico" /> */}
       </Head>
       <div>
         <LottoMachine />
