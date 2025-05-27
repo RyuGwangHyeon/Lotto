@@ -1,13 +1,9 @@
-import Head from "next/head";
 import LottoMachine from "@/components/LottoMachine";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>로또추첨기</title>
-        {/* <link rel="icon" href="/favicon2.ico" /> */}
-      </Head>
+      <title>로또추첨기</title>
       <div>
         <LottoMachine />
       </div>
